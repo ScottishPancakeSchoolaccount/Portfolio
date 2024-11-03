@@ -3,44 +3,26 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1420px;
-    height: 250px;
-
-} */
-/* #pagecontainer {
-    width: 1401px;
-    margin: 0px auto 0px auto;
-    padding-left: 20px;
-    background-color: rgb(179, 39, 192);
-} */
-
 #pagecontainer {
     width: 1401px;
     margin: 0 auto;
     padding-left: 20px;
+    padding-right: 20px;
     background-color: rgb(179, 39, 192);
     box-sizing: border-box;
 }
 
-/* Header style adjustments */
 #header {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Match pagecontainer width */
     width: 1401px;
     height: 250px;
-    /* Puts the header in the center! */
     margin: 0 auto;
     box-sizing: border-box;
 }
 
 #header img {
-    /* this makes sure that the image stays the same size as the pagecontainer */
     max-width: 100%;
     height: auto;
 }
@@ -64,14 +46,19 @@ body {
 }
 
 #Text {
-    color: white
+    color: white;
+    padding-right: 500px;
+
 }
 
 #title {
     color: white;
     background-color: #84009e;
 
+}
 
+#imageDecoration {
+    border-radius: 30px;
 }
 
 /* Vice Noire */
@@ -89,4 +76,12 @@ body {
 /* Beardman Adventures */
 .beardTxt {
     color: white;
+}
+
+/*About me*/
+.AboutMeImage {
+    border-radius: 30px;
+    max-width: 40%;
+    height: auto;
+    margin: 10px;
 }
